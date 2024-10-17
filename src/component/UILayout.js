@@ -15,13 +15,14 @@ export default function UILayout({ children }) {
                     <Button type="link" >Client Compoent</Button>
                 </Link>
                 <Button type="link" href='/servermdx'>Server Component </Button>
+                <Button type="link" href='/compose'>Compose Component </Button>
             </header>
             <main className={styles.main}>
                 {children}
             </main>
 
             <footer className={styles.footer}>
-
+                HuntX
             </footer>
         </div>
     );
